@@ -1,11 +1,11 @@
 var playlist = {Slowdive: "Alison", "My Bloody Valentine": "Somtimes"};
 
 function updatePlaylist(playlist, artist, song) {
-  playlist["Phil Ochs"] = "Here's to the State of Mississippi";
+  playlist[artist] = "song";
   return playlist;
 }
 
 function removeFromPlaylist(playlist, artist) {
-  delete playlist[Slowdive];
+  delete playlist[artist];
   return playlist;
 }
